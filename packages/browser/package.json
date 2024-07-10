@@ -1,7 +1,7 @@
 {
   "name": "@vitest/browser",
   "type": "module",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Browser running for Vitest",
   "license": "MIT",
   "funding": "https://opencollective.com/vitest",
@@ -27,6 +27,9 @@
     "./context": {
       "types": "./context.d.ts",
       "default": "./context.js"
+    },
+    "./client": {
+      "default": "./dist/client.js"
     },
     "./matchers": {
       "types": "./matchers.d.ts"
